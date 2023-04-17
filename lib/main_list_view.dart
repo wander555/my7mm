@@ -3,6 +3,7 @@ import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 import 'network/api/index_api.dart';
 import 'main_list_child.dart';
+import 'main_card.dart';
 
 class MainListView extends StatefulWidget {
   const MainListView({super.key});
@@ -25,8 +26,11 @@ class _MainListView extends State<MainListView> {
     return ListView.builder(
       key: _contentKey,
       padding: EdgeInsets.only(left: 5, right: 5),
-      itemBuilder: (c, i) => MainListViewChild(
-        no: i,
+      itemBuilder: (c, i) => MainCard(
+        img: 'http://via.placeholder.com/200x150',
+        title: 'asdfasdf',
+        address: 'asaasdfasdf',
+        rating: '5',
       ),
       itemCount: list.length,
     );
