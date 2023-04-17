@@ -4,7 +4,7 @@ import '../service/custom_service.dart';
 class IndexApi extends BaseApi {
   @override
   String path() {
-    return "/search";
+    return "/api/7mm/get7mmPage/1";
   }
 
   @override

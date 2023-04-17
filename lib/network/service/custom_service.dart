@@ -24,7 +24,7 @@ class CustomService extends Service {
       "Access-Control-Allow-Origin": "*",
     };
     dio.options.baseUrl =
-        "https://wallhaven.cc/api/v1"; //此处只是默认的baseUrl  可通过路由改变baseUrl
+        "http://10.10.10.21:5601"; //此处只是默认的baseUrl  可通过路由改变baseUrl
 
     dio.options.connectTimeout = Duration(seconds: 20);
     dio.options.receiveTimeout = Duration(seconds: 20);

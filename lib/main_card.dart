@@ -49,51 +49,51 @@ class _MainCardState extends State<MainCard> {
                       ),
                     ),
                   ),
-                  Positioned(
-                    top: 6.0,
-                    right: 6.0,
-                    child: Card(
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(4.0)),
-                      child: Padding(
-                        padding: EdgeInsets.all(2.0),
-                        child: Row(
-                          children: <Widget>[
-                            Icon(
-                              Icons.star,
-                              color: Colors.yellow[600],
-                              size: 10.0,
-                            ),
-                            Text(
-                              " ${widget.rating} ",
-                              style: TextStyle(
-                                fontSize: 10.0,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    top: 6.0,
-                    left: 6.0,
-                    child: Card(
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(3.0)),
-                      child: Padding(
-                        padding: EdgeInsets.all(4.0),
-                        child: Text(
-                          " OPEN",
-                          style: TextStyle(
-                            fontSize: 10.0,
-                            color: Colors.green,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
+                  // Positioned(
+                  //   top: 6.0,
+                  //   right: 6.0,
+                  //   child: Card(
+                  //     shape: RoundedRectangleBorder(
+                  //         borderRadius: BorderRadius.circular(4.0)),
+                  //     child: Padding(
+                  //       padding: EdgeInsets.all(2.0),
+                  //       child: Row(
+                  //         children: <Widget>[
+                  //           Icon(
+                  //             Icons.star,
+                  //             color: Colors.yellow[600],
+                  //             size: 10.0,
+                  //           ),
+                  //           Text(
+                  //             " ${widget.rating} ",
+                  //             style: TextStyle(
+                  //               fontSize: 10.0,
+                  //             ),
+                  //           ),
+                  //         ],
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
+                  // Positioned(
+                  //   top: 6.0,
+                  //   left: 6.0,
+                  //   child: Card(
+                  //     shape: RoundedRectangleBorder(
+                  //         borderRadius: BorderRadius.circular(3.0)),
+                  //     child: Padding(
+                  //       padding: EdgeInsets.all(4.0),
+                  //       child: Text(
+                  //         " OPEN",
+                  //         style: TextStyle(
+                  //           fontSize: 10.0,
+                  //           color: Colors.green,
+                  //           fontWeight: FontWeight.bold,
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
               SizedBox(height: 7.0),
